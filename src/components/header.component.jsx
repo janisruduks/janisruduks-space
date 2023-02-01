@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <nav
     aria-label="Site Nav"
-    class="mx-auto flex items-center justify-between p-4 bg-white rounded-xl"
+    class="mx-auto flex items-center justify-between p-4 bg-white/90 rounded-xl"
     >
     <a
         href="/"
