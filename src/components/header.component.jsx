@@ -1,12 +1,10 @@
 import React from 'react'
 
-import Logo from '../assets/logo.png'
-
 const Header = () => {
   return (
     <nav
     aria-label="Site Nav"
-    class="mx-auto flex items-center justify-between p-4 bg-white/90 rounded-xl"
+    class="mx-auto flex items-center justify-between p-4 border border-black shadow-black shadow-xl bg-c1/30 backdrop-blur-md rounded-xl"
     >
     <a
         href="/"
