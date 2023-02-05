@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../assets/logo.gif'
 
 const Header = () => {
   return (
@@ -8,10 +9,10 @@ const Header = () => {
     >
     <a
         href="/"
-        class="inline-flex h-10 w-10 items-center justify-center rounded-lg text-4xl"
+        class="inline-flex h-14 w-14 items-center justify-center rounded-lg text-4xl"
     >
         <span class="sr-only"></span>
-        👋
+        <img src={Logo} />
     </a>
 
     <ul class="flex items-center gap-2 text-sm font-medium text-gray-500">

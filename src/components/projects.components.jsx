@@ -5,6 +5,8 @@ import ProjectManul from '../assets/manul-web.png'
 import Bweu from '../assets/bweu.eu.png'
 import Caramel from '../assets/caramel.lv.png'
 import Cathouse from '../assets/cathouse.lv.png'
+import LidojosieEngeli from '../assets/lidojosie-engeli.lv.png'
+import Pils from '../assets/9pils.lv.png'
 
 const Projects = () => {
   return (
@@ -18,8 +20,7 @@ const Projects = () => {
                         <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">My projects</h2>
 
                         <p class="mt-4 text-gray-500">
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas
-                        rerum quam amet provident nulla error!
+I'm passionate about creating beautiful and functional websites that enhance the online presence of my clients. In this section, you'll find a showcase of some of my best work.
                         </p>
                     </header>
 
@@ -76,11 +77,11 @@ const Projects = () => {
                     </ul>
                 </div>
                 <div class="lg:col-span-4 lg:py-8">
-                    <ul class="grid grid-cols-4 gap-4">
+                    <ul class="grid lg:grid-cols-4 grid-cols-2 gap-4">
                     <li>
-                        <a href="https://valhalla-rho.vercel.app/" class="block group">
+                        <a href="https://lidojosie-engeli.lv/" class="block group">
                         <img
-                            src={ProjectBar}
+                            src={LidojosieEngeli}
                             alt=""
                             class="object-cover w-full rounded aspect-square"
                         />
@@ -89,7 +90,7 @@ const Projects = () => {
                             <h3
                             class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
                             >
-                            Bar Unknown
+                            Charity Organizations
                             </h3>
 
                             <p class="mt-1 text-sm text-gray-700">Simple yet elegant website for bar</p>
@@ -98,7 +99,7 @@ const Projects = () => {
                     </li>
 
                     <li>
-                        <a href="https://manul-design.vercel.app/" class="block group">
+                        <a href="https://caramel.lv/" class="block group">
                         <img
                             src={Caramel}
                             alt=""
@@ -109,7 +110,7 @@ const Projects = () => {
                             <h3
                             class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
                             >
-                            Manul Design
+                            Selling custom made t-shirts and other clothess
                             </h3>
 
                             <p class="mt-1 text-sm text-gray-700">Website for buisness selling services</p>
@@ -117,7 +118,7 @@ const Projects = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://manul-design.vercel.app/" class="block group">
+                        <a href="https://cathouse.lv" class="block group">
                         <img
                             src={Cathouse}
                             alt=""
@@ -128,7 +129,7 @@ const Projects = () => {
                             <h3
                             class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
                             >
-                            Manul Design
+                            Cathouse Bistro & Hotel
                             </h3>
 
                             <p class="mt-1 text-sm text-gray-700">Website for buisness selling services</p>
@@ -136,7 +137,7 @@ const Projects = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="https://manul-design.vercel.app/" class="block group">
+                        <a href="https://bweu.eu" class="block group">
                         <img
                             src={Bweu}
                             alt=""
@@ -147,10 +148,34 @@ const Projects = () => {
                             <h3
                             class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
                             >
-                            Manul Design
+                            Best Work Europe
                             </h3>
 
                             <p class="mt-1 text-sm text-gray-700">Website for buisness selling services</p>
+                        </div>
+                        </a>
+                    </li>
+                    </ul>
+                </div>
+
+                <div class="lg:col-span-4 lg:py-8">
+                    <ul class="grid lg:grid-cols-4 grid-cols-2 gap-4">
+                    <li>
+                        <a href="https://janisruduks.space/" class="block group">
+                        <img
+                            src={Pils}
+                            alt=""
+                            class="object-cover w-full rounded aspect-square"
+                        />
+
+                        <div class="mt-3">
+                            <h3
+                            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                            >
+                            9.Pils Gastro Bar
+                            </h3>
+
+                            <p class="mt-1 text-sm text-gray-700">Simple yet elegant website for bar</p>
                         </div>
                         </a>
                     </li>
