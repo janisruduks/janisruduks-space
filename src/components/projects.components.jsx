@@ -11,7 +11,7 @@ import Pils from '../assets/9pils.lv.png'
 const Projects = () => {
   return (
     <div>
-        <section className='border border-black rounded-lg bg-c1/30 shadow-md shadow-black'>
+        <section className='border border-black rounded-lg bg-c1/30 shadow-md shadow-black lg:m-3'>
             <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
                 <div class="grid p-6 bg-white/80 rounded place-content-center sm:p-8 border border-black">
@@ -20,7 +20,8 @@ const Projects = () => {
                         <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">My projects</h2>
 
                         <p class="mt-4 text-gray-500">
-I'm passionate about creating beautiful and functional websites that enhance the online presence of my clients. In this section, you'll find a showcase of some of my best work.
+                        I'm passionate about creating beautiful and functional websites that enhance the online presence of my clients. In this section, 
+                        you'll find a showcase of some of my best work.
                         </p>
                     </header>
 
@@ -36,7 +37,7 @@ I'm passionate about creating beautiful and functional websites that enhance the
                 <div class="lg:col-span-2 lg:py-8">
                     <ul class="grid grid-cols-2 gap-4">
                     <li>
-                        <a href="https://valhalla-rho.vercel.app/" class="block group">
+                        <a href="https://valhalla-rho.vercel.app/" target="_blank" rel="noopener noreferrer" class="block group">
                         <img
                             src={ProjectBar}
                             alt=""
@@ -56,7 +57,7 @@ I'm passionate about creating beautiful and functional websites that enhance the
                     </li>
 
                     <li>
-                        <a href="https://manul-design.vercel.app/" class="block group">
+                        <a href="https://manul-design.vercel.app/" target="_blank" rel="noopener noreferrer" class="block group">
                         <img
                             src={ProjectManul}
                             alt=""
@@ -79,7 +80,7 @@ I'm passionate about creating beautiful and functional websites that enhance the
                 <div class="lg:col-span-4 lg:py-8">
                     <ul class="grid lg:grid-cols-4 grid-cols-2 gap-4">
                     <li>
-                        <a href="https://lidojosie-engeli.lv/" class="block group">
+                        <a href="https://lidojosie-engeli.lv/" target="_blank" rel="noopener noreferrer" class="block group">
                         <img
                             src={LidojosieEngeli}
                             alt=""
@@ -99,7 +100,7 @@ I'm passionate about creating beautiful and functional websites that enhance the
                     </li>
 
                     <li>
-                        <a href="https://caramel.lv/" class="block group">
+                        <a href="https://caramel.lv/" target="_blank" rel="noopener noreferrer" class="block group">
                         <img
                             src={Caramel}
                             alt=""
@@ -118,7 +119,7 @@ I'm passionate about creating beautiful and functional websites that enhance the
                         </a>
                     </li>
                     <li>
-                        <a href="https://cathouse.lv" class="block group">
+                        <a href="https://cathouse.lv" target="_blank" rel="noopener noreferrer" class="block group">
                         <img
                             src={Cathouse}
                             alt=""
@@ -137,7 +138,7 @@ I'm passionate about creating beautiful and functional websites that enhance the
                         </a>
                     </li>
                     <li>
-                        <a href="https://bweu.eu" class="block group">
+                        <a href="https://bweu.eu" target="_blank" rel="noopener noreferrer" class="block group">
                         <img
                             src={Bweu}
                             alt=""
@@ -161,7 +162,7 @@ I'm passionate about creating beautiful and functional websites that enhance the
                 <div class="lg:col-span-4 lg:py-8">
                     <ul class="grid lg:grid-cols-4 grid-cols-2 gap-4">
                     <li>
-                        <a href="https://janisruduks.space/" class="block group">
+                        <a href="https://janisruduks.space/9pils" target="_blank" rel="noopener noreferrer" class="block group">
                         <img
                             src={Pils}
                             alt=""

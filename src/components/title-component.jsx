@@ -1,24 +1,39 @@
-import React from 'react'
+import React, { useState, useEffect } from "react";
 
 import Avatar from '../assets/pf.png'
 
 const Title = () => {
+  const [textIndex, setTextIndex] = useState(0);
+  const [text, setText] = useState("");
+
+  useEffect(() => {
+    const fullText = "Hello, I'm Jānis Ruduks. I build things for web.";
+    const typing = setTimeout(() => {
+      setText(fullText.slice(0, textIndex + 1));
+      setTextIndex(textIndex + 1);
+    }, 50);
+
+    if (textIndex === fullText.length) {
+      clearTimeout(typing);
+    }
+  }, [textIndex]);
+
+
   return (
     <section class="text-white bg-c1/30 border border-black rounded-xl shadow-lg shadow-black my-5 lg:m-3">
     <div
         class="mx-auto max-w-screen-xl px-4 py-10 lg:flex lg:h-screen lg:items-center"
     >
+        
         <div class="mx-auto max-w-3xl text-center">
-        <h1
-            class="text-white text-3xl font-extrabold sm:text-5xl"
-        >
-            Hello, I'm Jānis Ruduks
-
-            <span class="sm:block"> I build things for web </span>
-        </h1>
+            <h1
+            className="text-white text-3xl font-extrabold sm:text-5xl"
+            >
+            {text}
+            </h1>
         <img
             src={Avatar}
-            class="rounded-full border border-black/30 shadow-xl shadow-black w-32 my-4 mx-auto"
+            class="rounded-full w-32 my-4 mx-auto"
             alt="Avatar"
         />
 

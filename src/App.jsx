@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import Header from './components/header.component'
 import Title from './components/title-component'
 import Projects from './components/projects.components'
