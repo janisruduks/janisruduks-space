@@ -3,6 +3,7 @@ import React, { useState, useEffect } from 'react';
 import Header from './components/header.component';
 import Title from './components/title-component';
 import Projects from './components/projects.components';
+import EntranceAnimation from './components/Animation.component';
 
 function App() {
   const [contentLoaded, setContentLoaded] = useState(false);
@@ -17,9 +18,11 @@ function App() {
     <div className='lg:w-2/3 lg:mx-auto lg:max-w-screen gap-3 lg:p-5 m-2 rounded-xl text-white'>
       {contentLoaded ? (
         <>
+        <EntranceAnimation>
           <Header />
           <Title />
           <Projects />
+        </EntranceAnimation>
         </>
       ) : (
         <div className='flex justify-center items-center h-full'>
