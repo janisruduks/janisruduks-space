@@ -33,22 +33,35 @@ const Title = () => {
             </h1>
         <img
             src={Avatar}
-            class="rounded-full w-32 my-4 mx-auto"
+            class="rounded-full w-32 my-4 mx-auto shadow-md shadow-black"
             alt="Avatar"
         />
 
         <p class="mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed">
             Hire me for top-notch web development. 
             Contact me to discuss your project and how I can help bring your vision to reality
-        </p>
+        </p> 
 
         <div class="mt-8 flex flex-wrap justify-center gap-4">
             <a
-            class="block w-full rounded border border-black bg-white shadow shadow-black px-12 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
+            class="block w-full rounded border border-black bg-white shadow-md shadow-black px-12 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
             href="/get-started"
             >
             Contact me
             </a>
+        </div>
+        <p class='m-3 mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed'>or</p>
+        <p class='mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed'>Listen to my favorite band while browsing my space</p>
+        <div class='flex items-center justify-center lg:mx-44 m-3 rounded-full overflow-hidden border border-black shadow-md shadow-black'>
+            <iframe
+                style={{ border: 0, width: '100%', height: 42 }}
+                src="https://bandcamp.com/EmbeddedPlayer/album=3922198912/size=small/bgcol=ffffff/linkcol=333333/transparent=true"
+                seamless
+            >
+                <a href="https://april-rain.bandcamp.com/album/leave-me-no-light">
+                Leave Me No Light by April Rain
+                </a>
+            </iframe>
         </div>
         </div>
     </div>

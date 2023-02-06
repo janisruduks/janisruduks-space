@@ -1,26 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React from 'react';
 
-const AnimatedText = () => {
-  const [animate, setAnimate] = useState(false);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setAnimate(true);
-    }, 500);
-  }, []);
-
+const BandcampPlayer = () => {
   return (
-    <h1
-      className={`${
-        animate
-          ? "animate-pulse delay-2"
-          : "opacity-0 pointer-events-none"
-      } text-white text-3xl font-extrabold sm:text-5xl`}
-    >
-      Hello, I'm Jānis Ruduks
-      <span className="sm:block"> I build things for web </span>
-    </h1>
+    <div>
+      <iframe
+        style={{ border: 0, width: '30%', height: 42 }}
+        src="https://bandcamp.com/EmbeddedPlayer/album=3922198912/size=small/bgcol=ffffff/linkcol=333333/transparent=true/"
+        seamless
+      >
+        <a href="https://april-rain.bandcamp.com/album/leave-me-no-light">
+          Leave Me No Light by April Rain
+        </a>
+      </iframe>
+    </div>
   );
 };
 
-export default AnimatedText;
+export default BandcampPlayer;
