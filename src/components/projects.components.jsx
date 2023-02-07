@@ -17,24 +17,17 @@ const Projects = () => {
         <section className='border border-black rounded-lg bg-c1/30 shadow-md shadow-black lg:m-3'>
             <div class="max-w-screen-xl px-4 py-8 mx-auto sm:py-12 sm:px-6 lg:px-8">
                 <div class="grid grid-cols-1 gap-4 lg:grid-cols-3 lg:items-stretch">
-                    <div class="grid p-6 bg-white/80 rounded place-content-center sm:p-8 border border-black">
+                    <div class="grid p-6 bg-c1/10 rounded place-content-center sm:p-8 border border-black">
                         <EntranceAnimation>
                             <div class="max-w-md mx-auto text-center lg:text-left">
                                 <header>
-                                    <h2 class="text-xl font-bold text-gray-900 sm:text-3xl">My projects</h2>
+                                    <h2 class="text-xl font-bold text-white underline sm:text-3xl">My projects</h2>
 
-                                    <p class="mt-4 text-gray-500">
+                                    <p class="mt-4 text-white">
                                     I'm passionate about creating beautiful and functional websites that enhance the online presence of my clients. In this section, 
                                     you'll find a showcase of some of my best work.
                                     </p>
                                 </header>
-
-                                <a
-                                    href="#"
-                                    class="inline-block px-12 py-3 mt-8 text-sm font-medium text-white transition bg-gray-900 border border-gray-900 rounded hover:shadow focus:outline-none focus:ring"
-                                >
-                                    Shop All
-                                </a>
                             </div>
                         </EntranceAnimation>
                 </div>
@@ -50,14 +43,14 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                             />
 
-                            <div class="mt-3">
+                            <div class="mt-3 bg-black/30 rounded p-3">
                             <h3
-                                class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4 transition duration-500 ease-in-out"
+                                class="font-medium text-white group-hover:underline group-hover:underline-offset-4 transition duration-500 ease-in-out"
                             >
                                 Bar Unknown
                             </h3>
 
-                            <p class="mt-1 text-sm text-gray-700">Simple yet elegant website for bar</p>
+                            <p class="mt-1 text-sm text-white/80">Simple yet elegant website for bar</p>
                             </div>
                         </a>
                         </EntranceAnimation>
@@ -72,14 +65,14 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3">
+                        <div class="mt-3 bg-black/30 rounded p-3 bg-c1/30">
                             <h3
-                            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                            class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
                             Manul Design
                             </h3>
 
-                            <p class="mt-1 text-sm text-gray-700">Website for buisness selling services</p>
+                            <p class="mt-1 text-sm text-white/80">Website for buisness selling services</p>
                         </div>
                         </a>
                         </EntranceAnimation>
@@ -97,14 +90,14 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3">
+                        <div class="mt-3 bg-black/30 rounded p-3">
                             <h3
-                            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                            class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
                             Charity Organizations
                             </h3>
 
-                            <p class="mt-1 text-sm text-gray-700">Simple yet elegant website for bar</p>
+                            <p class="mt-1 text-sm text-white/80">Simple yet elegant website for bar</p>
                         </div>
                         </a>
                         </EntranceAnimation>
@@ -119,14 +112,14 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3">
+                        <div class="mt-3 bg-black/30 rounded p-3">
                             <h3
-                            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                            class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
                             Selling custom made t-shirts and other clothess
                             </h3>
 
-                            <p class="mt-1 text-sm text-gray-700">Website for buisness selling services</p>
+                            <p class="mt-1 text-sm text-white/80">Website for buisness selling services</p>
                         </div>
                         </a>
                         </EntranceAnimation>
@@ -140,14 +133,14 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3">
+                        <div class="mt-3 bg-black/30 rounded p-3">
                             <h3
-                            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                            class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
                             Cathouse Bistro & Hotel
                             </h3>
 
-                            <p class="mt-1 text-sm text-gray-700">Website for buisness selling services</p>
+                            <p class="mt-1 text-sm text-white/80">Website for buisness selling services</p>
                         </div>
                         </a>
                         </EntranceAnimation>
@@ -161,14 +154,14 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3">
+                        <div class="mt-3 bg-black/30 rounded p-3">
                             <h3
-                            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                            class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
                             Best Work Europe
                             </h3>
 
-                            <p class="mt-1 text-sm text-gray-700">Website for buisness selling services</p>
+                            <p class="mt-1 text-sm text-white/80">Website for buisness selling services</p>
                         </div>
                         </a>
                         </EntranceAnimation>
@@ -187,14 +180,14 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3">
+                        <div class="mt-3 bg-black/30 rounded p-3">
                             <h3
-                            class="font-medium text-gray-900 group-hover:underline group-hover:underline-offset-4"
+                            class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
                             9.Pils Gastro Bar
                             </h3>
 
-                            <p class="mt-1 text-sm text-gray-700">Simple yet elegant website for bar</p>
+                            <p class="mt-1 text-sm text-white/80">Simple yet elegant website for bar</p>
                         </div>
                         </a>
                         </EntranceAnimation>
