@@ -52,7 +52,7 @@ const Title = () => {
         </div>
         <p class='m-3 mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed'>or</p>
         <p class='mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed'>Listen to my favorite band while browsing my space</p>
-        <div class='flex items-center justify-center lg:mx-44 m-3 rounded-full overflow-hidden border border-black shadow-md shadow-black'>
+        <div class='flex items-center justify-center lg:mx-44 mx-10  m-3 rounded-full overflow-hidden border border-black shadow-md shadow-black'>
             <iframe
                 style={{ border: 0, width: '100%', height: 42 }}
                 src="https://bandcamp.com/EmbeddedPlayer/album=3922198912/size=small/bgcol=ffffff/linkcol=333333/transparent=true"
