@@ -4,6 +4,7 @@ import Header from './components/header.component';
 import Title from './components/title-component';
 import Projects from './components/projects.components';
 import EntranceAnimation from './components/Animation.component';
+import AboutMe from './components/about-me.component';
 
 function App() {
   const [contentLoaded, setContentLoaded] = useState(false);
@@ -21,6 +22,7 @@ function App() {
         <EntranceAnimation>
           <Header />
           <Title />
+          <AboutMe />
           <Projects />
         </EntranceAnimation>
         </>
