@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 
 import Avatar from '../assets/pf.png'
+import { Link } from "react-router-dom";
 
 const Title = () => {
   const [textIndex, setTextIndex] = useState(0);
@@ -43,12 +44,12 @@ const Title = () => {
         </p> 
 
         <div class="mt-8 flex flex-wrap justify-center gap-4">
-            <a
+            <Link
             class="block w-full rounded border border-black bg-white shadow-md shadow-black px-12 py-3 text-sm font-medium text-black hover:bg-transparent hover:text-white focus:outline-none focus:ring active:text-opacity-75 sm:w-auto"
-            href="/get-started"
+            to='/contact'
             >
             Contact me
-            </a>
+            </Link>
         </div>
         <p class='m-3 mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed'>or</p>
         <p class='mx-auto mt-4 max-w-xl sm:text-xl sm:leading-relaxed'>Listen to my favorite band while browsing my space</p>

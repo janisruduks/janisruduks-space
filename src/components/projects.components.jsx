@@ -33,7 +33,7 @@ const Projects = () => {
                 </div>
 
                 <div class="lg:col-span-2 lg:py-8">
-                    <ul class="grid grid-cols-2 gap-4">
+                    <ul class="grid grid-cols-3 gap-4">
                         <li>
                         <EntranceAnimation>
                         <a href="https://valhalla-rho.vercel.app/" target="_blank" rel="noopener noreferrer" class="block group">
@@ -43,7 +43,7 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                             />
 
-                            <div class="mt-3 bg-black/30 rounded p-3">
+                        <div class="mt-3 bg-c1/10 rounded border border-black shadow shadow-black p-3">
                             <h3
                                 class="font-medium text-white group-hover:underline group-hover:underline-offset-4 transition duration-500 ease-in-out"
                             >
@@ -56,27 +56,48 @@ const Projects = () => {
                         </EntranceAnimation>
                         </li>
 
-                    <li>
-                        <EntranceAnimation>
-                        <a href="https://manul-design.vercel.app/" target="_blank" rel="noopener noreferrer" class="block group">
-                        <img
-                            src={ProjectManul}
-                            alt=""
-                            class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                        />
+                        <li>
+                            <EntranceAnimation>
+                            <a href="https://manul-design.vercel.app/" target="_blank" rel="noopener noreferrer" class="block group">
+                            <img
+                                src={ProjectManul}
+                                alt=""
+                                class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                            />
 
-                        <div class="mt-3 bg-black/30 rounded p-3 bg-c1/30">
-                            <h3
-                            class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
-                            >
-                            Manul Design
-                            </h3>
+                            <div class="mt-3 bg-c1/10 rounded border border-black shadow shadow-black p-3">
+                                <h3
+                                class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
+                                >
+                                Manul Design
+                                </h3>
 
-                            <p class="mt-1 text-sm text-white/80">Website for buisness selling services</p>
-                        </div>
-                        </a>
-                        </EntranceAnimation>
-                    </li>
+                                <p class="mt-1 text-sm text-white/80">Website for buisness selling services</p>
+                            </div>
+                            </a>
+                            </EntranceAnimation>
+                        </li>
+                        <li>
+                            <EntranceAnimation>
+                            <a href="https://janisruduks.space/9pils" target="_blank" rel="noopener noreferrer" class="block group">
+                            <img
+                                src={Pils}
+                                alt=""
+                                class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
+                            />
+
+                            <div class="mt-3 bg-c1/10 rounded border border-black shadow shadow-black p-3">
+                                <h3
+                                class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
+                                >
+                                9.Pils Gastro Bar
+                                </h3>
+
+                                <p class="mt-1 text-sm text-white/80">Simple yet elegant website for bar</p>
+                            </div>
+                            </a>
+                            </EntranceAnimation>
+                        </li>
                     </ul>
                 </div>
                 <div class="lg:col-span-4 lg:py-8">
@@ -90,7 +111,7 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3 bg-black/30 rounded p-3">
+                        <div class="mt-3 bg-c1/10 rounded border border-black shadow shadow-black p-3">
                             <h3
                             class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
@@ -112,7 +133,7 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3 bg-black/30 rounded p-3">
+                        <div class="mt-3 bg-c1/10 rounded border border-black shadow shadow-black p-3">
                             <h3
                             class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
@@ -133,7 +154,7 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3 bg-black/30 rounded p-3">
+                        <div class="mt-3 bg-c1/10 rounded border border-black shadow shadow-black p-3">
                             <h3
                             class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
@@ -154,7 +175,7 @@ const Projects = () => {
                             class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
                         />
 
-                        <div class="mt-3 bg-black/30 rounded p-3">
+                        <div class="mt-3 bg-c1/10 rounded border border-black shadow shadow-black p-3">
                             <h3
                             class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
                             >
@@ -169,31 +190,6 @@ const Projects = () => {
                     </ul>
                 </div>
 
-                <div class="lg:col-span-4 lg:py-8">
-                    <ul class="grid lg:grid-cols-4 grid-cols-2 gap-4">
-                    <li>
-                        <EntranceAnimation>
-                        <a href="https://janisruduks.space/9pils" target="_blank" rel="noopener noreferrer" class="block group">
-                        <img
-                            src={Pils}
-                            alt=""
-                            class="object-cover w-full rounded aspect-square transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110"
-                        />
-
-                        <div class="mt-3 bg-black/30 rounded p-3">
-                            <h3
-                            class="font-medium text-white group-hover:underline group-hover:underline-offset-4"
-                            >
-                            9.Pils Gastro Bar
-                            </h3>
-
-                            <p class="mt-1 text-sm text-white/80">Simple yet elegant website for bar</p>
-                        </div>
-                        </a>
-                        </EntranceAnimation>
-                    </li>
-                    </ul>
-                </div>
                 </div>
             </div>
         </section></EntranceAnimation>

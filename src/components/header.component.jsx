@@ -1,52 +1,40 @@
 import React from 'react'
 import Logo from '../assets/logo.gif'
 
+import { Outlet, Link } from "react-router-dom";
+
+
 const Header = () => {
   return (
-    <nav
-    aria-label="Site Nav"
-    class="mx-auto flex items-center justify-between p-4 border border-black shadow-black shadow-xl bg-c1/30 backdrop-blur-md rounded-xl"
-    >
-    <a
-        href="/"
-        class="inline-flex h-14 w-14 items-center justify-center rounded-lg text-4xl"
-    >
-        <span class="sr-only"></span>
-        <img src={Logo} />
-    </a>
-
-    <ul class="flex items-center gap-2 text-sm font-medium text-gray-500">
-        <li class="hidden lg:block">
-        <a class="rounded-lg px-3 py-2" href="/"> Home </a>
-        </li>
-
-        <li><a class="rounded-lg px-3 py-2" href=""> Projects </a></li>
-
-        <li>
-        <a
-            class="inline-flex items-center rounded-lg px-3 py-2"
-            href=""
-            target="_blank"
+    <>
+        <nav
+        aria-label="Site Nav"
+        class="lg:w-2/3 lg:mx-auto lg:max-w-screen gap-3 lg:p-5 m-2 mx-auto flex items-center justify-between p-4 border border-black shadow-black shadow-xl bg-c1/30 backdrop-blur-md rounded-xl"
         >
-            External
-            <svg
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-            class="ml-1.5 h-4 w-4"
-            >
-            <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"
-            ></path>
-            </svg>
+        <a
+            href="/"
+            class="inline-flex h-14 w-14 items-center justify-center rounded-lg text-4xl"
+        >
+            <span class="sr-only"></span>
+            <img src={Logo} />
         </a>
-        </li>
-    </ul>
-    </nav>
+
+        <ul class="flex items-center gap-2 text-sm font-medium text-black">
+            <li class="hidden lg:block">
+                <Link class="rounded-lg px-3 py-2 hover:text-white" to="/"> Home </Link>
+            </li>
+
+            <li>
+                <Link class="rounded-lg px-3 py-2 hover:text-white" to="/contact"> Contact me </Link>
+            </li>
+            <li>
+                <Link class="rounded-lg px-3 py-2 hover:text-white" to="/tools">Tools </Link>
+            </li>
+
+        </ul>
+        </nav>
+        <Outlet />
+    </>
   )
 }
 
