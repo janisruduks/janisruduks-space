@@ -20,14 +20,14 @@ const ContactForm = () => {
     };
 
   return (
-    <div id="contact" className="grid grid-cols-2 border-black border m-3 rounded-lg  bg-c1/30 shadow-lg shadow-black">
+    <div id="contact" className="lg:grid lg:grid-cols-2 border-black border m-3 rounded-lg  bg-c1/30 shadow-lg shadow-black">
         <div>
             <EntranceAnimation>
                 <p class="text-center p-3 text-lg ">Instead of some text why you should message me have picture of pizza instead!</p>
             </EntranceAnimation>
             <EntranceAnimation>
                 <div class="flex justify-center">
-                    <img class="rounded-xl shadow shadow-black w-96 border border-black m-1" src={Pizza} />
+                    <img class="rounded-xl shadow shadow-black lg:w-96 w-52 border border-black m-1" src={Pizza} />
                 </div>
             </EntranceAnimation>
         </div>

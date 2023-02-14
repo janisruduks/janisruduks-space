@@ -39,7 +39,7 @@ const WpSupp = () => {
     };
 
     return (
-        <div className="grid grid-cols-2 m-3 border border-black rounded-lg bg-c1/30 shadow-lg shadow-black">
+        <div className="lg:grid lg:grid-cols-2 m-3 border border-black rounded-lg bg-c1/30 shadow-lg shadow-black">
             <div className="p-3">
                 <h1 className="font-extrabold p-3 text-lg text-black">wp_supplicant generator</h1>
                 <p className="p-3">Get your Raspberry Pi connected to your wifi network effortlessly by generating a wpa_supplicant.conf file. Simply provide the country code, SSID and password of your wifi network</p>
