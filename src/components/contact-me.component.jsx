@@ -20,19 +20,18 @@ const ContactForm = () => {
     };
 
   return (
-    <div id="contact" className="lg:grid lg:grid-cols-2 border-black border m-3 rounded-lg  bg-c1/30 shadow-lg shadow-black">
-        <div>
-            <EntranceAnimation>
-                <p class="text-center p-3 text-lg ">Instead of some text why you should message me have picture of pizza instead!</p>
-            </EntranceAnimation>
-            <EntranceAnimation>
-                <div class="flex justify-center">
-                    <img class="rounded-xl shadow shadow-black lg:w-96 w-52 border border-black m-1" src={Pizza} />
-                </div>
-            </EntranceAnimation>
-        </div>
-        <div>
-            <EntranceAnimation>
+    <EntranceAnimation>
+        <div id="contact" className="lg:grid lg:grid-cols-2 border-black border m-3 rounded-lg  bg-c1/80 shadow-lg shadow-black">
+            <div>
+                <h1 class='text-white underline text-center p-3 font-extrabold text-xl'>Get in Touch</h1>
+                <p class="text-center p-3 text-lg font-semibold text-white ">
+Thanks for taking the time to visit my website. If you have any questions or comments about my work, or if you're interested in hiring me for a project, please feel free to get in touch using the form.
+                </p>
+                <p class="text-center p-3 text-lg font-semibold text-white">
+I'll do my best to get back to you as soon as possible. Thanks again for your interest, and I look forward to hearing from you!
+                </p>
+            </div>
+            <div>
                 <form ref={form} onSubmit={sendEmail} className="p-6 rounded-lg shadow-md">
                     <label className="block text-white font-bold my-2">Name</label>
                     <input className="border border-black bg-transparent p-2 w-full rounded-lg shadow shadow-black" type="text" name="user_name" />
@@ -42,9 +41,9 @@ const ContactForm = () => {
                     <textarea className="border border-black bg-transparent p-2 w-full rounded-lg shadow shadow-black" name="message" />
                     <input className="bg-white text-black py-2 px-4 m-1 my-2 rounded-lg hover:bg-transparent hover:border-black hover:border shadow shadow-black" type="submit" value="Send" />
                 </form>
-            </EntranceAnimation>
+            </div>
         </div>
-    </div>
+    </EntranceAnimation>
   );
 };
 

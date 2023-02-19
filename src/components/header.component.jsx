@@ -2,14 +2,16 @@ import React from 'react'
 import Logo from '../assets/logo-2.gif'
 
 import { Outlet, Link } from "react-router-dom";
+import EntranceAnimation from './Animation.component';
 
 
 const Header = () => {
   return (
     <>
+        <EntranceAnimation>
         <nav
         aria-label="Site Nav"
-        class="lg:w-2/3 lg:mx-auto lg:max-w-screen gap-3 lg:p-5 m-2 mx-auto flex items-center justify-between p-4 border border-black shadow-black shadow-xl bg-c1/30 backdrop-blur-md rounded-xl"
+        class="lg:w-2/3 lg:mx-auto lg:max-w-screen gap-3 lg:p-5 m-2 flex items-center justify-between p-4 border border-black shadow-black shadow-xl bg-c1/30 rounded-xl"
         >
         <Link
             to='/'
@@ -29,6 +31,7 @@ const Header = () => {
 
         </ul>
         </nav>
+        </EntranceAnimation>
         <Outlet />
     </>
   )

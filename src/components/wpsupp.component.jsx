@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import EntranceAnimation from "./Animation.component";
 
 const WpSupp = () => {
     const [fileContents, setFileContents] = useState("");
@@ -39,12 +40,14 @@ const WpSupp = () => {
     };
 
     return (
-        <div className="lg:grid lg:grid-cols-2 m-3 border border-black rounded-lg bg-c1/30 shadow-lg shadow-black">
+        <EntranceAnimation>
+        <div>
+        <div className="lg:grid lg:grid-cols-2 m-3 border border-black rounded-lg bg-c1/80 shadow-lg shadow-black">
             <div className="p-3">
-                <h1 className="font-extrabold p-3 text-lg text-black">wp_supplicant generator</h1>
-                <p className="p-3">Get your Raspberry Pi connected to your wifi network effortlessly by generating a wpa_supplicant.conf file. Simply provide the country code, SSID and password of your wifi network</p>
-                <p className="p-3 text-sm">(your wifi ssid and password is not stored on this website)</p>
-                <p className="p-3">Copy the generated wpa_supplicant.conf file to the /boot directory of your Raspbian SD card and let it do the rest. Upon boot, the Pi will automatically copy the file into /etc/wpa_supplicant and connect to your network.</p>
+                <h1 className="font-extrabold p-3 text-lg text-white">wp_supplicant generator</h1>
+                <p className="p-3 font-semibold">Get your Raspberry Pi connected to your wifi network effortlessly by generating a wpa_supplicant.conf file. Simply provide the country code, SSID and password of your wifi network</p>
+                <p className="p-3 font-semibold text-sm">(your wifi ssid and password is not stored on this website)</p>
+                <p className="p-3 font-semibold">Copy the generated wpa_supplicant.conf file to the /boot directory of your Raspbian SD card and let it do the rest. Upon boot, the Pi will automatically copy the file into /etc/wpa_supplicant and connect to your network.</p>
             </div>
             <div className="p-3 flex justify-center">
                 <form>
@@ -77,12 +80,16 @@ const WpSupp = () => {
                     </div>
                     <button className="m-1 text-sm border-black border bg-white text-black hover:bg-transparent hover:border hover:border-black p-1 rounded" onClick={handleShowContents}>Show Contents </button>
                     <button className="m-1 text-sm border-black border bg-white text-black hover:bg-transparent hover:border hover:border-black p-1 rounded" onClick={handleDownload}> Download </button>
-                    {fileContents && (
-                    <pre>{fileContents}</pre>
-                    )}
                 </form>
             </div>
         </div>
+            <div className="p-3 lg:w-1/3 lg:float-right flex justify-center m-3 border border-black rounded-lg bg-c1/80 shadow-lg shadow-black">
+                {fileContents && (
+                <pre className="text-xs text-white">{fileContents}</pre>
+                )}
+            </div>
+        </div>
+        </EntranceAnimation>
 
   );
 };
