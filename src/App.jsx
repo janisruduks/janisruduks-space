@@ -1,12 +1,9 @@
 import React from 'react';
 
-import Header from './components/header.component';
 import Title from './components/title-component';
 import Projects from './components/projects.components';
 import EntranceAnimation from './components/Animation.component';
 import AboutMe from './components/about-me.component';
-import ContactForm from './components/contact-me.component';
-import WPAForm from './components/wpsupp.component';
 
 function App() {
 
