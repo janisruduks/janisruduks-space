@@ -1,6 +1,5 @@
 import React, { useRef } from "react";
 import emailjs from '@emailjs/browser';
-import Pizza from '../assets/pizza.jpg'
 
 import EntranceAnimation from "./Animation.component";
 
